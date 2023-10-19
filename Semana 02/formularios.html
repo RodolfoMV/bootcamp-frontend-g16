@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <h1>FORMULARIOS + INPUTS + VALIDACIONES</h1>
+        <form action="">
+            <h2>Inputs</h2>
+
+            <label for="text1">Input tipo texto</label>
+            <input type="text" placeholder="Ingrese texto" id="text1" name="texto">
+
+            <label for="">
+                Input (Solo lectura)
+                <input type="text" placeholder="De solo lectura" readonly value="solo lectura">
+            </label>
+
+            <label for="">
+                Input (Desactivado)
+                <input type="text" placeholder="Input desactivado" disabled>
+            </label>
+
+            <label for="">
+                Input tipo number
+                <input type="number" placeholder="Coloca tu edad" name="edad">
+            </label>
+
+            <label for="">
+                Input tipo email
+                <input type="email" placeholder="Coloca tu email" name="email">
+            </label>
+
+            <label for="">
+                Input tipo range (Edad)
+                <input type="range" min="1" max="100">
+            </label>
+
+            <label for="">
+                Input tipo tel
+                <input type="tel" placeholder="(51) 999999999">
+            </label>
+
+            <label for="">
+                Input tipo url
+                <input type="url" placeholder="Sitio web">
+            </label>
+            
+            <label for="">
+                Input tipo password
+                <input type="password" placeholder="password">
+            </label>
+
+            <label for="">
+                Input tipo color
+                <input type="color">
+            </label>
+
+            <label for="">
+                Input tipo search
+                <input type="search">
+            </label>
+
+            <label for="">
+                Input tipo file (Seleccionar archivos .jpg)
+                <input type="file" accept=".jpg, jpeg" multiple>
+            </label>
+
+            <input type="hidden" value="datos-ocultos">
+
+            <input type="submit" value="Guardar">
+            
+        </form>
+    </main>
+</body>
+</html>
